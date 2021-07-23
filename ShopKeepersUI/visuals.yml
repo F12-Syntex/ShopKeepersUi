@@ -1,0 +1,23 @@
+#version ( DONT CHANGE ) 
+version: 2
+
+Visuals:
+ Category:
+  Items:
+   Name: "&5[&dItem&5]"
+   Lore: 
+    - "&5Category:&d %category%"
+    - "&5Shops:&d %shops%"
+ Selection:
+  Name: "&7[&c%item%&7]"
+  OneItemTrade:
+   Lore: 
+    - "&5Price: "
+    - "&a  - %trade1amount%x %trade1%"
+    - "&5Location:&a %location%"
+  TwoItemTrade:
+   Lore: 
+    - "&5Price: "
+    - "&a  - %trade1amount%x %trade1%"
+    - "&a  - %trade2amount%x %trade2%"
+    - "&5Location:&a %location%"

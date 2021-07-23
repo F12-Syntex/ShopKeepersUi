@@ -1,0 +1,9 @@
+name: ShopKeepersMeta
+version: 1.0
+api-version: 1.16
+main: com.keepers.main.ShopKeepers
+author: Unfairbody96
+softdepend: [Shopkeepers]
+commands:
+  shop:
+    description: ShopKeepersMeta main command

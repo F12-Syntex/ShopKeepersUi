@@ -1,0 +1,7 @@
+#version ( DONT CHANGE ) 
+version: 1
+
+Permissions:
+ default: "minions.command.help"
+ admin: "minions.admin"
+ timer_bypass: "minions.timer.bypass"
